@@ -2,7 +2,7 @@
 import requests
 
 # Define the target URL
-url = "http://lookup.thm/login.php"
+url = "http://website.com"
 
 # Define the file path containing usernames
 file_path = "/usr/share/seclists/Usernames/Names/names.txt"
