@@ -45,4 +45,7 @@ def try_login(website, username, password):
         print(f"Username: {username} - Wrong username")
     else:
         print(f"Username: {username} | Password: {password} - Possibly valid credentials")
-  
+        
+for username in usernames:
+    for password in passwords:
+        try_login(Website, username, password)
